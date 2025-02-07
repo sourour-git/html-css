@@ -1,0 +1,186 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+.logo{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 100px;
+    font-weight: bold;
+}
+.search-box{
+margin-top: 20px;
+
+}
+input[type="text"]{
+    border-radius: 25px;
+    width: 550px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+
+}
+.buttons{
+    margin-top: 20px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    border: none;
+    
+}
+#googlesearch,#Feeling{
+  background-color: grey;  
+  color: white;
+  border-radius: 5px;
+  width:150px ;
+  height:30px ;
+
+}
+#Feeling:hover{
+    background-color:green ;
+}
+#googlesearch:hover{
+    background-color:green ;
+}
+.languages{
+    margin-top: 15px;
+ 
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* General Styles */
+body {
+    background-color: #202124;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Google Logo */
+.logo {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #303134;
+    border-radius: 24px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 500px;
+    position: relative;
+}
+
+.search-box input {
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    padding: 6px;
+}
+
+/* Icons */
+.search-icon {
+    color: gray;
+    margin-right: 10px;
+}
+
+.mic-icon,
+.camera-icon {
+    color: gray;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    background: #303134;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: blue;
+}
+
+/* Language Links */
+.languages {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.languages a {
+    color: #8ab4f8;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.languages a:hover {
+    text-decoration: underline;
+}
+#G{
+    color:blue ;
+}
+#o{
+    color: red;
+}
+#o1{
+    color: orange;
+}
+#g{
+    color: blue;
+}
+#l{
+    color: green;
+}
+  #e{
+    color: red;
+}
+.search-box:active{
+    border-color: #f4f7fc;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28), 0 0 8px rgba(66, 133, 244, 0.6);
+
+}
+
+.search-box:hover {
+    border-color: #4285f4;
+    animation: infinite;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28), 0 0 8px rgba(66, 133, 244, 0.6);
+}
+#micro{
+    width: 30px;
+    height: 30px;
+}
+#camera{
+    width: 30px;
+    height: 30px;
+}

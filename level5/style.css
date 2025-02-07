@@ -1,0 +1,63 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+.navbar{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    align-items: center;
+    background-color: aqua;
+    color: aliceblue;
+}
+.logo{
+    font-size: 30px;
+    color: chocolate;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-links li{
+    display: inline;
+}
+.nav-links a{
+    color: blue;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 8px;
+}
+.nav-links a:hover{
+    background-color: wheat;
+    color: chocolate;
+    border-radius: 5px;
+} 
+.container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  

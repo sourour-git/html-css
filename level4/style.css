@@ -1,0 +1,46 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Title Styling */
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.login-form {
+    background: white;
+    padding: 20px;
+    width: 280px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Hover Effect */
+.login-form button:hover {
+    background: #218838;
+}
